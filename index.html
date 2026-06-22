@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="calculator">
+        <input type="text" id="display" readonly>
+        <div class="scientific">
+            <button onclick="sin()">sin</button>
+            <button onclick="cos()">cos</button>
+            <button onclick="tan()">tan</button>
+            <button onclick="sqrt()">√</button>
+            <button onclick="power()">x²</button>
+            <button onclick="pi()">π</button>
+        </div>
+        <div class="buttons">
+            <button onclick="clearDisplay()">C</button>
+            <button onclick="percentage()">%</button>
+            <button onclick="deleteLast()">⌫</button>
+            <button onclick="addvalue('/')">/</button>
+            <button onclick="addvalue('*')">*</button>
+            <button onclick="addvalue('-')">-</button>
+            <button onclick="addvalue('+')">+</button>
+            <button onclick="calculate()">=</button>
+            <button onclick="addvalue('1')">1</button>
+            <button onclick="addvalue('2')">2</button>
+            <button onclick="addvalue('3')">3</button>
+            <button onclick="addvalue('4')">4</button>
+            <button onclick="addvalue('5')">5</button>
+            <button onclick="addvalue('6')">6</button>
+            <button onclick="addvalue('7')">7</button>
+            <button onclick="addvalue('8')">8</button>
+            <button onclick="addvalue('9')">9</button>
+            <button onclick="addvalue('0')">0</button>
+            <button onclick="addvalue('.')">.</button>
+        </div>
+        <div class="history" id="history">
+            
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
